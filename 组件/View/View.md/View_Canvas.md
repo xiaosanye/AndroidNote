@@ -3,4 +3,4 @@ Android中使用`图形处理引擎`，`2D部分是android SDK内部自己提供
 
 
 
-canvas提供的绘制图形的方法都是以draw开头的，我们可以查看api:
+canvas提供的绘制图形的方法都是以draw开头的，我们可以查看api:clear
