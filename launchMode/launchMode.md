@@ -1,0 +1,7 @@
+它可以决定
+是否生成新的Activity实例，
+是否重用已存在的Activity实例，
+是否和其他Activity实例公用一个task里
+
+
+task的概念，task是一个具有栈结构的对象，一个task可以管理多个Activity，启动一个应用，也就创建一个与之对应的task。

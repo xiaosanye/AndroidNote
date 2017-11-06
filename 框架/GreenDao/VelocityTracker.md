@@ -1,0 +1,3 @@
+VelocityTracker顾名思义即速度跟踪，在android中主要应用于touch even。VelocityTracker通过跟踪一连串事件实时计算出当前的速度，这样的用法在android系统空间中随处可见，比如Gestures中的Fling, Scrolling等。
+
+VelocityTracker主要用跟踪触摸屏事件（flinging事件和其他gestures手势事件）的速率。用addMovement(MotionEvent)函数将Motion event加入到VelocityTracker类实例中.你可以使用getXVelocity() 或getXVelocity()获得横向和竖向的速率到速率时，但是使用它们之前请先调用computeCurrentVelocity(int)来初始化速率的单位 。
